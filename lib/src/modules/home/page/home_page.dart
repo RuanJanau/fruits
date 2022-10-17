@@ -12,10 +12,18 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 110, 170, 112),
-      body: Column(
-        children: const [],
+      body: SizedBox(
+        height: double.infinity,
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset("assets/image/tomate.webp"),
+            const SizedBox(height: 20.0),
+            
+          ],
+        ),
       ),
     );
   }
 }
-
